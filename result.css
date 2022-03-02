@@ -1,0 +1,30 @@
+body {
+    background-image: url(/IMG/scc.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-size: 16px;
+    background-color: #f4eeff;
+    font-family: "Cairo", sans-serif;
+    height: 55vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#box {
+    text-align: center;
+    color: #424874;
+    display: flex;
+    flex-direction: column;
+    background-color: #dcd6f7;
+    max-width: 600px;
+    margin-top: 20vh;
+    margin-left: 31vw;
+    padding: 30px;
+    border-radius: 30px;
+}

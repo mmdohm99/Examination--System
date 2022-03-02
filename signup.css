@@ -1,0 +1,56 @@
+body {
+    background-image: url(/IMG/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-size: 16px;
+    background-color: #f4eeff;
+    font-family: "Cairo", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#box {
+    color: #dcd6f7;
+    display: flex;
+    flex-direction: column;
+    background-color: #424874;
+    max-width: 300px;
+    margin-top: 10vh;
+    margin-left: 25vh;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+input {
+    color: #424874;
+    border: solid 2px #a6b1e1;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #f4eeff;
+}
+
+#btn {
+    border: solid 5px #a6b1e1;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    width: 150px;
+    background-color: #f4eeff;
+    color: #424874;
+    align-self: center;
+    box-shadow: inset 0 0 0 0 #424874;
+    transition:ease-out 0.3s;
+    outline: none;
+}
+
+#btn:hover {
+    box-shadow: inset 150px 0 0 0 #424874;
+    color: #f4eeff;
+    cursor: pointer;
+}

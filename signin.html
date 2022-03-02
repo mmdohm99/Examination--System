@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/sign.css">
+</head>
+
+<body>
+    <div id="box">
+        <label>Enter your E-mail :</label><br>
+        <input type="email" id="sign-Email"><br>
+        <label id="mail-Err" style="display: none;color: red;">E-mail is incorrect</label>
+        <br>
+        <label> Password :</label><br>
+        <input type="password" id="sign-Pass"><br>
+        <label id="pass-Err" style="display: none;color: red;">Passwords does not match</label><br>
+        <button onclick="sign(event)" id="btn">Sign In</button>
+    </div>
+    <script src="/sign.js"></script>
+</body>
+
+</html>

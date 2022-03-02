@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Exam.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+
+        <div id="qbox">
+            <div id="No"></div>
+            <br>
+            <div id="Q"></div><br>
+            <div id="options-Container">
+                <div class="ch">
+                    <input type="radio" name="choose" class="r" id="r1" value="0" onclick="pick(this.value)">
+                    <label id="l1"></label>
+                </div>
+                <div class="ch">
+                    <input type="radio" name="choose" class="r" id="r2" value="1" onclick="pick(this.value)">
+                    <label id="l2"></label>
+                </div>
+                <div class="ch">
+                    <input type="radio" name="choose" class="r" id="r3" value="2" onclick="pick(this.value)">
+                    <label id="l3"></label>
+                </div>
+                <div class="ch">
+                    <input type="radio" name="choose" class="r" id="r4" value="3" onclick="pick(this.value)">
+                    <label id="l4"></label>
+                </div>
+
+            </div><br>
+            <div id="navigation">
+                <button class="btn" onclick="prev()">Previous</button>
+                <button class="btn" id="mark">Mark</button>
+                <button class="btn" onclick="next()">Next</button>
+            </div>
+
+        </div>
+        <button id="end" onclick="submit()">End Exam</button>
+        <div id="widget">
+            <div id="time"></div>
+            <aside id="sidebar"></aside>
+        </div>
+    </div>
+
+
+
+    <script src="/Exam.js"></script>
+</body>
+
+</html>

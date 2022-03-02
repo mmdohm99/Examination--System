@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/signup.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        <label>First Name :</label><br>
+        <input type="text" id="F_Name"><br>
+        <label id="err1" style="display: none;color: red;"> Please enter only strings</label>
+        <label>Last Name :</label><br>
+        <input type="text" id="L_Name"><br>
+        <label id="err2" style="display: none;color: red;">Please enter only strings</label>
+        <label>Password :</label><br>
+        <input type="password" id="Original"><br>
+        <label>Re-Enter Password</label><br>
+        <!-- <label id="err4" style="display: none;color: red;">Passwords does not match</label> -->
+        <input type="password" id="Re"><br>
+        <label id="err3" style="display: none;color: red;">Passwords is less than '8' charchters or not matching</label>
+        <label>E-mail</label><br>
+        <input type="email" id="mail"><br>
+        <label id="err4" style="display: none;color: red;">E-mail is Not validate</label>
+
+        <button onclick="validate(event)" id="btn">Signup</button>
+    </div>
+    <script src="/Signup.js"></script>
+
+</body>
+
+</html>
